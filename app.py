@@ -14,10 +14,10 @@ app.secret_key = "0000000000"  # secure random secret
 
 # Email Configuration
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
-app.config["MAIL_PORT"] = 587
+app.config["MAIL_PORT"] = ***
 app.config["MAIL_USE_TLS"] = True
-app.config["MAIL_USERNAME"] = "oldbookstorenepal@gmail.com"  
-app.config["MAIL_PASSWORD"] = "terd wtfd uazx aksq"  
+app.config["MAIL_USERNAME"] = "**********"  
+app.config["MAIL_PASSWORD"] = "*************"  
 app.config["MAIL_DEFAULT_SENDER"] = "your_email@gmail.com"
 
 mail = Mail(app)
@@ -962,3 +962,4 @@ def update_payment(payment_id):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
